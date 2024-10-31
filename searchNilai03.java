@@ -17,7 +17,7 @@ public class searchNilai03 {
         key=sc.nextInt();
         for(int i=0; i<arrNilai.length; i++){
             if (key==arrNilai[i]){
-                hasil = i;
+                hasil = i+1;
                 break;
             }
         }
@@ -27,7 +27,7 @@ public class searchNilai03 {
             System.out.println();
         }else{
             System.out.println();
-            System.out.println("nilai "+key+" ketemu di indeks ke-"+(hasil+1));
+            System.out.println("nilai "+key+" ketemu di mahasiswa ke-"+hasil);
             System.out.println();
         }
         
